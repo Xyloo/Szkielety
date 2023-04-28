@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action='/result2' method="POST">
+  <label>
+    Imię i nazwisko:
+    <input type="text" name="fullname" placeholder="Full Name">
+  </label>
+  <br>
+  Języki: <label>Rosyjski <input type="checkbox" name="languages[]" value="Rosyjski"></label>
+  <label>Niemiecki <input type="checkbox" name="languages[]" value="Niemiecki"></label>
+  <label>Angielski <input type="checkbox" name="languages[]" value="Angielski"></label>
+    <br>
+  <input type="submit" value="Wyślij POST">
+</form>
+</body>
+</html>

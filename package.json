@@ -1,0 +1,32 @@
+{
+  "name": "express-serwer",
+  "version": "1.0.0",
+  "description": "Prosta aplikacja serwerowa oparta na szkielecie Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Lab4_Express/Zadanie1_8.js",
+    "dev": "nodemon Lab4_Express/Zadanie1_8.js"
+  },
+  "keywords": [
+    "express",
+    "serwer"
+  ],
+  "author": "Cezary Gozdalski",
+  "type": "commonjs",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-react-views": "^0.11.0",
+    "express-validator": "^7.0.1",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.0.5",
+    "react-dom": "^16.14.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
